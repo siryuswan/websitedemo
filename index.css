@@ -1,0 +1,170 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/Photos/logins.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login_container{
+    width: 450px;
+    height: 300px;
+    padding: 15px 20px;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: forestgreen;
+    place-items: center;
+    background: transparent;
+    backdrop-filter: blur(35px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-color: green;
+}
+
+.login_title {
+    text-align: center;
+}
+
+.login_title span{
+    font-style: bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Username {
+    padding: 5px;
+    position: relative;
+}
+
+.Username input {
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    background: transparent;
+    border-color: green;
+    color: white;
+    padding: 0 25px;
+}
+
+.Password {
+    padding: 5px;
+    position: relative;
+}
+.Password input {
+    border-radius: 15px;
+    height: 30px;
+    width: 250px;
+    background: transparent;
+    border-color: green;
+    color: white;
+    padding: 0 25px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.login_container .Remember_me-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13;
+    position: relative;
+    width: 100%;
+    padding: 15px;
+}
+
+.Remember_me-forget input {
+    accent-color: #fff;
+}
+
+.Remember_me-forget label {
+    color: white;
+}
+
+.Remember_me-forget a{
+    text-decoration: none;
+    color: white;
+}
+
+.Remember_me-forget a:hover {
+    text-decoration: underline;
+}
+
+.Login_button {
+    justify-content: center;
+    width: 250px;
+    padding: 5px;
+}
+
+.Login_button input {
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    border-color: green;
+    
+}
+
+.Login_button input:hover {
+    background: lightgreen;
+}
+
+.signup {
+    display: flex;
+    width: 240px;
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.signup p{
+    color: white;
+}
+
+.signup a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+@media (max-width:400px){
+    .login_container{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    height: 80px;
+    justify-items: center;
+    background: linear-gradient(#21cc37, #1d992d);
+    color: white;
+    font-size: 40px;
+    width: auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-areas: 
+    "header header"
+    "aside mains";
+}
+
+
+.aside{
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(#00e64d, #00b33c, #009933);
+    color: white;
+    padding: 20px;
+    text-shadow: black;
+    height: 100vh;
+}
+
+.aside #X{
+    display: none;
+}
+#BARS{
+    display: none;
+}
+
+.aside ul{
+    list-style: none;
+    height: auto;
+}
+.aside ul li{
+    margin: 10px;
+    height: 50px;
+}
+.aside i{
+    font-size: 50px;
+}
+
+.aside ul button{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.settings-content{
+    background: #00e600;
+}
+
+.settings-content a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 15px;
+}
+
+.dropdown .settings-content{
+    position: absolute;
+    display: none;
+}
+
+.dropdown:hover .settings-content{
+    display: block;
+}
+.dropdown:hover button{
+    background: #00e600;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.dropdown a:hover{
+    background: forestgreen;
+}
+
+.settings-content:hover{
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+
+
+.mains{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.main1 h1, .main2 h1, .main3 h1{
+    text-align: center;
+}
+
+.main1 ul li, .main2 ul li, .main3 ul li{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (max-width: 930px){
+    .header h1{
+        font-size: 50px;
+    }
+
+    .container{
+        display: block;
+       
+    }
+
+    #BARS{
+        display: block;
+        padding: 10px;
+        font-size: 20px;
+
+    }
+
+    .mains{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .aside{
+        display: block;
+        position: absolute;
+        width: 200px;
+        font-size: 20px;
+        z-index: 2;
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+    .aside #X{
+        display: block;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+

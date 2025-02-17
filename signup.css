@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Photos/logins.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.signup_container {
+    width: 450px;
+    height: 300px;
+    padding: 15px 20px;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: forestgreen;
+    place-items: center;
+    background: transparent;
+    backdrop-filter: blur(35px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-color: green;
+}
+
+.signup_title{
+    color: white;
+    text-align: center;
+}
+.signup_title h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.signup_email{
+    padding: 5px;
+    position: relative;
+}
+.signup_email input{
+    width: 250px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 25px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+
+.signupusername{
+    padding: 5px;
+    position: relative;
+}
+.signupusername input{
+    width: 250px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 25px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+
+.password {
+    padding: 5px;
+    position: relative;
+}
+.password input {
+    width: 250px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 25px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+.signupconpass{
+    padding: 5px;
+    position: relative;
+}
+.signupconpass input{
+    width: 250px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 25px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+::placeholder{
+    color: white;
+}
+i {
+    color: white;
+}
+
+.register{
+    width: 250px;
+    justify-content: center;
+    padding: 5px;
+}
+.register input{
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+.register input:hover{
+    background: lightgreen;
+}
+
+@media (max-width:400px){
+    .signup_container{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

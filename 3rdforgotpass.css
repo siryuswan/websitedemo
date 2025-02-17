@@ -1,0 +1,151 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/Photos/logins.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.fp-container {
+    width: 450px;
+    height: 300px;
+    padding: 15px 20px;
+    border: solid 2px;
+    border-radius: 15px;
+    border-color: forestgreen;
+    place-items: center;
+    background: transparent;
+    backdrop-filter: blur(35px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-color: green;
+}
+
+.fp_title {
+    color: white;
+    text-align: center;
+}
+.fp_title h1 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Newpass {
+    padding: 5px;
+    position: relative;
+}
+.Newpass input {
+    width: 250px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 25px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+.conpass {
+    padding: 5px;
+    position: relative;
+}
+.conpass input {
+    width: 250px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 25px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+.email{
+    padding: 5px;
+    position: relative;
+}
+.email input {
+    width: 250px;
+    border-radius: 15px;
+    height: 30px;
+    padding: 0 25px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+::placeholder{
+    color: white;
+}
+
+.reg_button{
+    width: 250px;
+    justify-content: center;
+    padding: 5px;
+}
+.reg_button input{
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    background: transparent;
+    color: white;
+    border-color: green;
+}
+
+.reg_button input:hover{
+    background-color: lightgreen;
+}
+
+i{
+    color: white;
+}
+
+@media (max-width:400px){
+    .fp-container{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.studypage_container{
+    justify-items: center;
+    min-height: 100vh;
+}
+.study_guide_title{
+    width: 100%;
+    height: 80px;
+    background: green;
+    justify-items: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Topics{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 25px;
+}
+
+.Topics ul li{
+    list-style: none;
+    padding: 10px;
+}
+.Topics a{
+    text-decoration: none;
+    color: black;
+}
+.Topics a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+
+
+
+.Topics span{
+    font-size: 30px;
+}
+
+h4{
+    justify-self: center;
+}
+
+ul li{
+    justify-content: center;
+}
+
+
+
+
+@media  (max-width: 675px){
+   .study_guide_title{
+    font-size: 15px;
+    align-content: center;
+    width: 100%;
+   }
+
+   .Topics{
+    flex-direction: column;
+   }
+
+    
+}
